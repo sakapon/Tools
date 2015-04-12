@@ -1,4 +1,19 @@
-## How to Publish Tools
+## How to Publish App
+
+KTools アプリケーションを ClickOnce で発行するための手順。
+
+### Git の設定
+改行コードが自動的に変換されないように、次のコマンドを実行する。
+
+```
+$ git config --global core.autocrlf false
+```
+
+設定を確認するためのコマンド:
+
+```
+$ git config --list
+```
 
 ### 証明書の準備
 証明書のファイル自体は別の場所で管理する。
